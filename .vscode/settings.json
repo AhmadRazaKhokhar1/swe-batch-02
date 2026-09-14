@@ -9,18 +9,17 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "debug.openDebug": "neverOpen",
   "problems.autoReveal": true,
-  "terminal.integrated.hideOnStartup": "always",
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "terminal.integrated.inheritEnv": false,
   "jestrunner.configPath": "jest.unit.config.cjs",
   "compile-hero.disable-compile-files-on-did-save-code": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "tasks": {
     "label": "lint on open",
     "type": "shell",
     "command": "npm run lint",
     "runOn": "folderOpen"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
   }
 }
